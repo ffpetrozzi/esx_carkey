@@ -27,4 +27,4 @@ Go to ox_inventory/modules/items/client.lua and add this:
     end)
   end)
   
-#####If you want to make some changes and want to make it public make a Pull Request
+###### If you want to make some changes and want to make it public make a Pull Request
