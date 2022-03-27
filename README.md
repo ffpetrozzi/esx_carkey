@@ -6,6 +6,8 @@
 
 >[ox_inventory](https://github.com/overextended/ox_inventory)
 
+>[ox_lib](https://github.com/overextended/ox_lib)
+
 Go to ox_inventory/data/items.lua and add this:
 
 ```lua
