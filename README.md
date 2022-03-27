@@ -3,6 +3,7 @@
 
 ###### REQUIREMENTS:
 >[es_extended](https://github.com/esx-framework/esx-legacy)
+
 >[ox_inventory](https://github.com/overextended/ox_inventory)
 
 Go to ox_inventory/data/items.lua and add this:
