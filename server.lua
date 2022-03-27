@@ -1,4 +1,5 @@
-local itemname = 'carkey' -- ITEM NAME
+ESX = exports.es_extended:getSharedObject()
+
 RegisterCommand('givekey', function(source, args)
     local xPlayer = ESX.GetPlayerFromId(args[1])
     local xSender = ESX.GetPlayerFromId(source)
@@ -7,7 +8,7 @@ RegisterCommand('givekey', function(source, args)
         metadata.plate = args[2] -- EXAMPLE: ABC123
         metadata.description = 'Owner: ' .. xPlayer.name .. '  \nPlate: ' .. metadata.plate
 
-        xPlayer.addInventoryItem(itemname, 1, metadata)
+        xPlayer.addInventoryItem(Config.ItemName, 1, metadata)
     else
         xSender.showNotification('ID not found!')
     end
