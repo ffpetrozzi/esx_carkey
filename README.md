@@ -7,6 +7,7 @@
 
 Go to ox_inventory/data/items.lua and add this:
 
+```lua
   ['carkey'] = {
     label = 'Car Key',
     weight = 3000,
@@ -16,9 +17,11 @@ Go to ox_inventory/data/items.lua and add this:
             usetime = 1000
     }
   },
+```
   
 Go to ox_inventory/modules/items/client.lua and add this:
 
+```lua
   Item('carkey', function(data, slot)
     ox_inventory:useItem(data, function(data)
       if data then
@@ -26,5 +29,6 @@ Go to ox_inventory/modules/items/client.lua and add this:
       end
     end)
   end)
+```
   
 ###### If you want to make some changes and want to make it public make a Pull Request
