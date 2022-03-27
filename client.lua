@@ -1,3 +1,5 @@
+ESX = exports.es_extended:getSharedObject()
+
 RegisterNetEvent('ff_carkey:send')
 AddEventHandler('ff_carkey:send', function(info)
     local Coords = GetEntityCoords(PlayerPedId())
