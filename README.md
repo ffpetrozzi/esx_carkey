@@ -15,7 +15,7 @@ Go to ox_inventory/data/items.lua and add this:
     stack = false,
     consume = 0,
     client = {
-            usetime = 1000
+      usetime = 1000
     }
   },
 ```
