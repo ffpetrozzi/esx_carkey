@@ -1,5 +1,5 @@
 # esx_carkey
-## Hi, i created this script that allows you to create an item with a custom metadata to lock and unlock cars.
+## This script allows you to create an item with a custom metadata to lock and unlock cars.
 
 ###### REQUIREMENTS:
 >[es_extended](https://github.com/esx-framework/esx-legacy)
