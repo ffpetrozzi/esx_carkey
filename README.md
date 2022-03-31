@@ -33,5 +33,5 @@ Go to ox_inventory/modules/items/client.lua and add this:
     end)
   end)
 ```
-  
+###### WARNING! The code of the client.lua file was not written by me, I changed it slightly.
 ###### If you want to make some changes and want to make it public make a Pull Request
